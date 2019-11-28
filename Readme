@@ -19,3 +19,14 @@ Go over in the following order
 
 4. jquery-dom.html  
   - References jquery-dom.js 
+
+
+
+
+NOTE : For Jquery autocomplete (intellisense)
+	> Go to the directory which has the code.
+	> brew install npm
+	> npm
+	> npm i --save-dev @types/jquery
+	> npm init
+	> npm install --save @types/jquery
