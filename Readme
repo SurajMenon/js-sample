@@ -1,0 +1,21 @@
+Go over in the following order
+
+1. basic.html 
+   - References hello.js & object.js
+   - Basic's of JavaScript 
+   - How to create and handel object
+   - Talks about how JS treats html as object - model
+
+2. dom-manipluation.html 
+ - References dom.js 
+ - changing dom's using java script
+
+
+3. jquery.html  
+ - References jquery.js 
+ - Talks about how jquery is a JS library
+ - Jquery events & actions
+
+
+4. jquery-dom.html  
+  - References jquery-dom.js 

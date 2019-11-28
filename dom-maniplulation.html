@@ -1,0 +1,53 @@
+<html>
+<body>
+     
+    <!-- Button Action-->
+    <button onclick="onClickAlert()">Alert</button><!-- Calling JS functions-->
+    <button onclick="onClickChangeText()">Change text</button>
+    <p id="button2">Orignal Text</p>
+    <br>
+
+    <!-- Input Action -->
+    <input id="textBox"></input>
+    <button onclick="onClickAlertTextBox()">Click to Alert</button>
+    <br><br><br>
+
+    <!--Radio Button-->
+    <input id="radio1" name="group1" type="radio" value="1" checked onclick="onClickChangeRadioText(1)">1</input><br>
+    <input id="radio2" name="group1" type="radio" value="2" onclick="onClickChangeRadioText(2)">2</input>
+        <!-- Can only select 1 with a given group name -->
+    <p id="button3">1</p>
+
+
+    <!-- getElementByTagName-->
+    <button onclick="onClickChangeSize()">Click to change Size</button><br>
+
+     <!-- getElementByClassName-->
+     <!--HTML allows grouping objects/elements by "class"-->
+    <p class="class">Statement 1</p>
+    <p class="class">Statement 2</p>
+    <p class="class2">Statement 3</p>
+    <button onclick="onClickChangeColor()">Click to change color</button><br><br><br>
+
+    <!-- onmouseover &  onmouseout-->
+    <button  id="mouseAction" onmouseover="onHoverChangeText1()" onmouseout="onHoverChangeText2()">Hover to change text</button><br><br>
+
+    <!--FORM tag. For sending for data to a server-->
+    <form onsubmit="return onClickSubmit()" action="basic.html"> <!--function is called at onsubmit on form, instead of onclick() on button-->
+        <!-- "return onClickSubmit()" ensure the return value is passed to onsubmit. If it is 'false' action will not be taken -->
+        <input id="form" placeholder="Enter name"></input><br>
+        <button type="submit">submit</button> <!-- Note that type of button is submit-->
+    </form>
+    <br>
+
+    <!-- Regex check-->
+    <input id="textBox2"></input>
+    <button onclick="onClickCheckRegEx()">Click for Regex match</button>
+
+    <!-- Note : For live debugging - Inspect > Sources > Breakpoints-->
+    <!-- Also check 'Event Lisnter Breakpoints'--> 
+</body>
+
+</html>
+
+<script type="text/javascript" src="dom.js"></script>
